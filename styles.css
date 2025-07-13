@@ -245,12 +245,12 @@ img {
 
 .home__img {
   position: absolute;
-  right: 0;
+  right: 0;         /* Move fully to the right */
   bottom: 0;
   width: 260px;
-  transform: translateX(20px);  /* Visually moves it 20px to the right */
-  margin-left: auto;  /* Pushes to the right if inside a flexbox row */
+  margin-left: auto;
 }
+
 .home__blob {
   fill: var(--first-color);
 }
