@@ -181,8 +181,10 @@ img {
 /*===== HOME =====*/
 .home {
   position: relative;
+  width: 100vw;
   row-gap: 5rem;
   padding: 4rem 0 5rem;
+  overflow: hidden;
 }
 .home__data {
   align-self: center;
@@ -245,11 +247,9 @@ img {
 
 .home__img {
   position: absolute;
-  right: 0;         /* Move fully to the right */
+  right: 0;
   bottom: 0;
   width: 260px;
-  margin-left: auto;
-  transform: translateX(20px);
 }
 
 .home__blob {
