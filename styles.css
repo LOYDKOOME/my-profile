@@ -182,8 +182,7 @@ img {
 .home {
   position: relative;
   width: 100vw;
-  row-gap: 5rem;
-  padding: 4rem 0 5rem;
+  height: 100vh;
   overflow: hidden;
 }
 .home__data {
@@ -250,13 +249,17 @@ img {
   right: 0;
   bottom: 0;
   width: 260px;
+  height: auto;
 }
 
 .home__blob {
-  fill: var(--first-color);
+    width: 100%;
+  height: auto;
+  display: block;
 }
 .home__blob-img {
-  width: 360px;
+  width: 100%;
+  height: auto;
 }
 
 /*BUTTONS*/
