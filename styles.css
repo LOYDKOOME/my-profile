@@ -249,6 +249,7 @@ img {
   bottom: 0;
   width: 260px;
   margin-left: auto;
+  transform: translateX(20px);
 }
 
 .home__blob {
